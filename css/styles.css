@@ -146,14 +146,10 @@ a {
   gap: 50px;
 }
 
-.header-item {
+.phone-wpapper {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.icon-nav {
-  fill: currentColor;
 }
 
 .header-mailto {
@@ -183,6 +179,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.phone-wpapper:hover,
+.phone-wpapper:focus {
+  color: #2196f3;
 }
 
 .header-phone:hover,
