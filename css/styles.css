@@ -183,7 +183,6 @@ a {
 /* hero section */
 
 .hero {
-  background-color: #2f303a;
   text-align: center;
 }
 
@@ -192,6 +191,13 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/Image01.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-wrap {
