@@ -269,6 +269,10 @@ a {
 
 /* offer section */
 
+.offer.section {
+  padding-bottom: 0;
+}
+
 .offer-list {
   display: flex;
   gap: var(--indent);
