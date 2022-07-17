@@ -145,18 +145,16 @@ a {
   display: flex;
   gap: 50px;
 }
+
 .icon-nav {
   fill: currentColor;
 }
 
-.mailto-wrapper {
+.header-mailto {
   display: flex;
   align-items: center;
   gap: 10px;
-}
 
-.header-mailto {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -177,14 +175,11 @@ a {
   color: #2196f3;
 }
 
-.phone-wpapper {
+.header-phone {
   display: flex;
   align-items: center;
   gap: 10px;
-}
 
-.header-phone {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
